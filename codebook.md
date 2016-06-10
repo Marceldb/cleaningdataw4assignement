@@ -1,4 +1,24 @@
+# CodeBook
 
+The code book explains the resulting data  in tidy.txt.
+
+## Idss
+
+* subject - ID of the  subject
+* activity - Type of activity performed 
+
+
+## Activity Labels
+
+* WALKING: subject was walking 
+* WALKING_UPSTAIRS: subject was walking  upstairs
+* WALKING_DOWNSTAIRS: subject was walking down a staircase 
+* SITTING: subject was sitting 
+* STANDING: subject was standing  
+* LAYING: subject was laying down  
+
+
+Transformations in the analysis script 
 #Load data, Merging  training and test sets  
 
 xtrain,ytrain.trainsub: info about training data.
